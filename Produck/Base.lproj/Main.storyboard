@@ -17,7 +17,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="otP-db-Zsz">
-                                <rect key="frame" x="167" y="407" width="56" height="31"/>
+                                <rect key="frame" x="167" y="407" width="56" height="48"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="START"/>
                                 <connections>
@@ -25,7 +25,7 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="l4P-FY-2V6">
-                                <rect key="frame" x="177" y="446" width="36" height="21"/>
+                                <rect key="frame" x="177" y="463" width="36" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -34,10 +34,11 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="l4P-FY-2V6" secondAttribute="trailing" constant="177" id="9EQ-s0-Xhv"/>
+                            <constraint firstItem="l4P-FY-2V6" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="177" id="BWq-rv-Ntn"/>
                             <constraint firstItem="otP-db-Zsz" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="363" id="PRq-FT-aAe"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="l4P-FY-2V6" secondAttribute="bottom" constant="326" id="XuH-DJ-8Qk"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="otP-db-Zsz" secondAttribute="trailing" constant="167" id="a0s-m6-rZd"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="l4P-FY-2V6" secondAttribute="bottom" constant="343" id="cQb-ZQ-C4h"/>
-                            <constraint firstItem="l4P-FY-2V6" firstAttribute="leading" secondItem="otP-db-Zsz" secondAttribute="trailing" constant="-46" id="f6D-Aq-X9W"/>
                             <constraint firstItem="l4P-FY-2V6" firstAttribute="top" secondItem="otP-db-Zsz" secondAttribute="bottom" constant="8" symbolic="YES" id="oDl-13-hjg"/>
                             <constraint firstItem="otP-db-Zsz" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="167" id="rx0-ZZ-tjm"/>
                         </constraints>
